@@ -1,0 +1,85 @@
+@font-face {
+  font-family: LifeForm;
+  src: url(otf/LifeformRegular.otf);
+}
+@font-face {
+  font-family: NeueMeta;
+  src: url(otf/NeueMetanaNext-SemiBold.otf);
+}
+
+#card h1 {
+  font-family: LifeForm;
+  margin-left: 5%;
+  color: white;
+}
+body {
+  background-color: rgb(182, 0, 0);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 10%;
+}
+
+#card {
+  background-image: linear-gradient(
+    to left top,
+    #3293e4,
+    #5b6fb2,
+    #5d4f80,
+    #4d3552,
+    #32202c,
+    #362633,
+    #392d3a,
+    #3d3341,
+    #555c7b,
+    #558eb5,
+    #44c4df,
+    #5ffbf1
+  );
+  border-radius: 10px;
+  width: 40%;
+  height: 90%;
+  padding-bottom: 2%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#card img {
+  border-radius: 10%;
+  margin-left: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#card #bio {
+  width: 90%;
+  margin-left: 5%;
+  font-family: NeueMeta;
+  color: white;
+}
+#prophesion {
+  color: rgb(255, 2, 2);
+  margin-left: 5%;
+  font-family: NeueMeta;
+}
+
+#btn_savoir_plus {
+  background-color: rgb(255, 2, 2);
+  text-align: center;
+  margin-left: 70%;
+  color: white;
+  margin-top: 5%;
+  width: 25%;
+  font-family: NeueMeta;
+  border-radius: 15px;
+  height: 40px;
+  border: white solid 1px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+#btn_savoir_plus:hover {
+  color: rgb(255, 2, 2);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
